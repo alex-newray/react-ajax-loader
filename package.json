@@ -1,0 +1,32 @@
+{
+  "name": "react-ajax-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/react-ajax-loader.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "start": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "analyze": "webpack --profile --json > stats.json && webpack-bundle-analyzer stats.json"
+  },
+  "author": "aleksandr.newray@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-lodash": "^3.3.4",
+    "lodash-webpack-plugin": "^0.11.5",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.29.0",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "semantic-ui-react": "^0.83.0"
+  }
+}
